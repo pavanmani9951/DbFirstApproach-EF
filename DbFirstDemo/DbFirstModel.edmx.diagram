@@ -14,7 +14,6 @@
         <AssociationConnector Association="DbFdemoModel.FK_Courses_Authors" ManuallyRouted="false" />
         <AssociationConnector Association="DbFdemoModel.FK_CourseSections_Courses" ManuallyRouted="false" />
         <AssociationConnector Association="DbFdemoModel.CourseTags" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="DbFdemoModel.UserProfile" Width="1.5" PointX="5.375" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
