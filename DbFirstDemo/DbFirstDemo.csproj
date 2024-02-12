@@ -90,9 +90,6 @@
     <Compile Include="tblUser.cs">
       <DependentUpon>DbFirstModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="UserProfile.cs">
-      <DependentUpon>DbFirstModel.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
