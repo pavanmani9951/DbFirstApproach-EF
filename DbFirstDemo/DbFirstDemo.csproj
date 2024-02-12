@@ -61,6 +61,9 @@
     <Compile Include="Course.cs">
       <DependentUpon>DbFirstModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="CourseLevel.cs">
+      <DependentUpon>DbFirstModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="CourseSection.cs">
       <DependentUpon>DbFirstModel.tt</DependentUpon>
     </Compile>
@@ -78,6 +81,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DbFirstModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="funcGetAuthorCourses_Result.cs">
+      <DependentUpon>DbFirstModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCourses_Result.cs">
+      <DependentUpon>DbFirstModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Post.cs">
       <DependentUpon>DbFirstModel.tt</DependentUpon>

@@ -10,6 +10,12 @@ namespace DbFirstDemo
     {
         static void Main(string[] args)
         {
+            var db = new DbFirstDemoDbContext();
+            var courses = db.GetCourses();
+            foreach (var course in courses)
+            {
+                Console.WriteLine(course.Title);
+            }
 
         }
     }
