@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0465fdeefccb410ab8941e58c9380324" Name="Diagram1" DisplayType="true">
+        <EntityTypeShape EntityType="DbFdemoModel.Author" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFdemoModel.Course" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFdemoModel.CourseSection" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFdemoModel.Post" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFdemoModel.Tag" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFdemoModel.tblUser" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="DbFdemoModel.FK_Courses_Authors" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFdemoModel.FK_CourseSections_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFdemoModel.CourseTags" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbFdemoModel.UserProfile" Width="1.5" PointX="5.375" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

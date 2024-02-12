@@ -13,10 +13,10 @@ namespace DbFirstDemo
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class dbdemoEntities : DbContext
+    public partial class DbFirstDemoDbContext : DbContext
     {
-        public dbdemoEntities()
-            : base("name=dbdemoEntities")
+        public DbFirstDemoDbContext()
+            : base("name=DbFirstDemoDbContext")
         {
         }
     
@@ -25,6 +25,12 @@ namespace DbFirstDemo
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Author> Authors { get; set; }
+        public virtual DbSet<Course> Courses { get; set; }
+        public virtual DbSet<CourseSection> CourseSections { get; set; }
         public virtual DbSet<Post> Posts { get; set; }
+        public virtual DbSet<Tag> Tags { get; set; }
+        public virtual DbSet<tblUser> tblUsers { get; set; }
+        public virtual DbSet<UserProfile> UserProfiles { get; set; }
     }
 }
